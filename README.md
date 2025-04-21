@@ -2,7 +2,7 @@
 
 For more information, go to [Recognizing Text in Images](https://developer.apple.com/documentation/vision/recognizing-text-in-images).
 
-> [!WARNING]  
+> [!WARNING]
 > You can only do this on a Mac
 
 
@@ -14,8 +14,8 @@ Compile the Swift file:
 ``` shell
 swiftc AppleOCRTool.swift -o AppleOCRTool
 ```
-> [!Note]
-> Python will then call the binary file
+> [!IMPORTANT] 
+> You have to do this so the Python can call the binary file
 
 ---
 # About the code
